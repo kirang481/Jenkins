@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11350" started-at="2019-03-07T09:52:08Z" finished-at="2019-03-07T09:52:19Z">
+  <suite name="Default suite" duration-ms="99" started-at="2019-03-09T16:39:36Z" finished-at="2019-03-09T16:39:36Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11350" started-at="2019-03-07T09:52:08Z" finished-at="2019-03-07T09:52:19Z">
-      <class name="jenkins.demo.maven.googleDemo">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:jenkins.demo.maven.googleDemo@2a2d45ba]" name="beforeTest" is-config="true" duration-ms="8899" started-at="2019-03-07T15:22:08Z" finished-at="2019-03-07T15:22:17Z">
+    <test name="Default test" duration-ms="99" started-at="2019-03-09T16:39:36Z" finished-at="2019-03-09T16:39:36Z">
+      <class name="jenkins.demo.maven.NewTest">
+        <test-method status="PASS" signature="g()[pri:0, instance:jenkins.demo.maven.NewTest@36d4b5c]" name="g" duration-ms="26" started-at="2019-03-09T22:09:36Z" finished-at="2019-03-09T22:09:36Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="f()[pri:0, instance:jenkins.demo.maven.googleDemo@2a2d45ba]" name="f" duration-ms="39" started-at="2019-03-07T15:22:17Z" finished-at="2019-03-07T15:22:17Z">
+        </test-method> <!-- g -->
+        <test-method status="PASS" signature="e()[pri:0, instance:jenkins.demo.maven.NewTest@36d4b5c]" name="e" duration-ms="3" started-at="2019-03-09T22:09:36Z" finished-at="2019-03-09T22:09:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- e -->
+        <test-method status="PASS" signature="f()[pri:0, instance:jenkins.demo.maven.NewTest@36d4b5c]" name="f" duration-ms="3" started-at="2019-03-09T22:09:36Z" depends-on-methods="jenkins.demo.maven.NewTest.g" finished-at="2019-03-09T22:09:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:jenkins.demo.maven.googleDemo@2a2d45ba]" name="afterTest" is-config="true" duration-ms="2374" started-at="2019-03-07T15:22:17Z" finished-at="2019-03-07T15:22:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- jenkins.demo.maven.googleDemo -->
+      </class> <!-- jenkins.demo.maven.NewTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
